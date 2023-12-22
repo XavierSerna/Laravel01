@@ -25,3 +25,5 @@ Route::post('/tareas', [TodosController::class, 'store'])->name('todos');
 Route::get('/tareas/{id}', [TodosController::class, 'show'])->name('todos-edit');
 Route::patch('/tareas/{id}', [TodosController::class, 'update'])->name('todos-update');
 Route::delete('/tareas/{id}', [TodosController::class, 'destroy'])->name('todos-destroy');
+
+//text prove
